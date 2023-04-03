@@ -18,7 +18,7 @@ import com.jsp.dto.Hospital;
 public class HospitalDao {
 
 	@Autowired
-	Create_EMF c;
+	EntityManagerFactory entityManagerFactory;
 	
 	EntityManager entityManager = entityManagerFactory.createEntityManager();
 	EntityTransaction entityTransaction = entityManager.getTransaction();
